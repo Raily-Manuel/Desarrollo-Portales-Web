@@ -1,0 +1,196 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fcd7c3;
+    height: 300px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.menue{
+    background-color: #FFB4A2;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.perfil{
+    position: relative;
+    left: 1010px;
+    bottom: 65px;
+}
+.configuracion{
+    position: relative;
+    left: 1080px;
+    bottom: 65px;
+}
+
+nav{
+    position: relative;
+    bottom: 40px;
+    background-color: #e3a3a5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 40px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s, transform 0.3s;
+}
+nav a:hover {
+    background: #c08789;
+    transform: scale(1.1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.inicio{
+    font-size: 20px;
+    margin-left: 190px;
+    color: white;
+}
+.menu{
+    font-size: 20px;
+    margin-left: 160px;
+    color: white;
+}
+.galeria{
+    font-size: 20px;
+    margin-left: 160px;
+    color: white;
+}
+.contactos{
+    font-size: 20px;
+    margin-left: 160px;
+    color: white;
+}
+
+.inicio, .menu, .galeria, .contactos{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 1000;
+}
+
+.bebidas{
+    position: relative;
+    left: 920px;
+    bottom: 866px;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+
+.texto{
+    position: relative;
+    left: 420px;
+    bottom: 230px;
+}
+
+.pastel{
+    margin-left: 30px;
+}
+.galletas{
+    position: relative;
+    top: 160px;
+    right: 150px;
+}
+.macarons{
+    position: relative;
+    top: 140px;
+    right: 414px;
+}
+.malteada{
+    position: relative;
+    top: 355px;
+    right: 170px;
+}
+.pastel2{
+    position: relative;
+    top: 300px;
+    right: 425px;
+}
+
+
+footer{
+    position: relative;
+    bottom: 700px;
+    background-color: #e3a3a5;
+    padding: 50px;
+    padding-bottom: 1px;
+    font-size: 20px;
+}
+
+
+.direc{
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.tel{
+    position: relative;
+    top: 55px;
+    left: 60px;
+}
+.cor{
+    position: relative;
+    left: 430px;
+    bottom: 85px;
+}
+
+.aviso{
+    position: relative;
+    left: 380px;
+    bottom: 85px;
+}
+
+.redes{
+    position: relative;
+    left: 780px;
+    bottom: 150px;
+}
+
+.endulzamos{
+    position: relative;
+    bottom: 110px;
+    left: 790px;
+}
+
+.face{
+    margin-top: 20px;
+}
+.insta{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.tik{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+h5{
+    font-size: 15px;
+    position: relative;
+    left: 810px;
+    bottom: 280px;
+}

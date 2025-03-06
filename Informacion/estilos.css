@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color:red;
+    font-size: medium;
+    border: 3px solid black;
+}
+
+h1{
+    color: darkgreen;
+    text-align: center;
+    background-color: bisque; 
+}
+
+h2, h3{
+    color: rgb(2, 117, 79);
+}
+
+ul{
+    text-decoration: none;
+}
+
+body{
+    background-color: #ffffbb;
+}
+
+div{
+    background-color: cyan;
+    opacity: 1;
+}

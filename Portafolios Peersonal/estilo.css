@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: left;
+}
+
+
+.superior{
+    background-color: rgb(62, 62, 62);
+    border-bottom: 3px solid rgb(159, 159, 159);
+}
+
+
+h1{
+    background-color: rgb(159, 159, 159);
+    position: relative;
+    top: 30px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
+}
+
+.yo{
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.nombre{
+    position: relative;
+    left: 410px;
+    bottom: 230px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
+}
+
+.descripcion{
+    padding-left: 250px;
+    padding-right: 500px;
+    position: relative;
+    left: 170px;
+    bottom: 200px;
+    color: white;
+}
+
+
+.inferior{
+    background-color: rgb(109, 109, 109);
+}
+
+nav{
+    position: relative;
+    left: 930px;
+    bottom: 130px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.mis{
+    background-color: rgb(78, 78, 78);
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    transition: background 0.3s, transform 0.3s;
+}
+a:hover{
+    background-color: rgb(48, 48, 48);
+    transform: scale(1.1);
+}
+
+
+.encabezado2{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black;
+}
+
+.juegos1{
+    position: relative;
+    left: 80px;
+    background-color: rgb(62, 62, 62);
+    padding: 20px;
+    color: white;
+    margin-right: 1050px;
+    border-radius: 10px;
+}
+.juegos{
+    border-radius: 10px;
+}
+
+.series1{
+    position: relative;
+    left: 375px;
+    bottom: 290px;
+    background-color: rgb(62, 62, 62);
+    padding: 20px;
+    padding-bottom: 75px;
+    color: white;
+    margin-right: 1050px;
+    border-radius: 10px;
+}
+.series{
+    border-radius: 10px;
+}
+
+.futbol1{
+    position: relative;
+    left: 670px;
+    bottom: 580px;
+    background-color: rgb(62, 62, 62);
+    padding: 20px;
+    padding-bottom: 36px;
+    color: white;
+    margin-right: 1050px;
+    border-radius: 10px;
+}
+.futbol{
+    border-radius: 10px;
+}
+
+.ajedrez1{
+    position: relative;
+    left: 960px;
+    bottom: 868px;
+    background-color: rgb(62, 62, 62);
+    padding: 20px;
+    padding-bottom: 35px;
+    color: white;
+    margin-right: 1050px;
+    border-radius: 10px;
+}
+.ajedrez{
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 15px;
+}
+
+.imagenes{
+    position: relative;
+    bottom: 55px;
+}
+
+
+footer{
+    background-color: rgb(62, 62, 62);
+    padding-top: 60px;
+    padding-left: 60px;
+    position: relative;
+    bottom: 850px;
+    height: 200px;
+    border-top: 3px solid rgb(159, 159, 159);
+    color: white;
+}
+
+h5{
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+}
+
+.contactame{
+    position: relative;
+    left: 400px;
+    bottom: 55px;
+}
+
+.face{
+    margin-top: 10px;
+}
+.wasa{
+    margin-left: 10px;
+}
+.insta{
+    margin-left: 10px;
+}
