@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/**********/
+/* HEADER */
+/**********/
+.logo{
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 100px 100px 100px 100px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 38px;
+    position: relative;
+    left: 220px;
+    bottom: 100px;
+}
+
+.busqueda{
+    position: relative;
+    left: 900px;
+    bottom: 150px;
+}
+
+input{
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+    position: relative;
+}
+input:hover{
+    border: 2px solid black;
+}
+.search{
+    width: 50px;
+    height: 45px;
+    position: relative;
+    top: 4px;
+    border: 1px solid black;
+    border-radius: 0px 15px 15px 0px;
+    background-color: rgb(203, 203, 203);
+}
+
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 88, 126);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 80px;
+}
+
+nav a{
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background: rgb(249, 249, 249);
+    transform: scale(1.1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.inicio{
+    margin-left: 330px;
+    font-size: 22px;
+    background-color: rgb(201, 201, 201);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px 15px 15px 15px;
+    font-weight: 1000;
+}
+.contacto{
+    margin-left: 300px;
+    font-size: 22px;
+    background-color: rgb(201, 201, 201);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px 15px 15px 15px;
+    font-weight: 1000;
+}
+
+main{
+    background-color: rgb(201, 201, 201);
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    border-radius: 12px 12px 12px 12px;
+    height: 600px;
+    box-shadow: 0px 0px 7px black;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.contactanos {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.formulario {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form{
+    margin-bottom: 30px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(131, 131, 131);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    width: 340px;
+}
+
+button:hover {
+    background-color: rgb(154, 154, 154);
+}
+
+
+footer{
+    background-color: rgb(0, 88, 126);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: -100px;
+    color: white;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+.lista1, .lista2{
+    display: grid;
+    grid-column: auto;
+    width: 180px;
+}
+
+.lista2{
+    position: relative;
+    left: 250px;
+    bottom: 145px;
+}
+
+.enlaces{
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+
+.aviso{
+    width: 300px;
+    position: relative;
+    left: 620px;
+    bottom: 110px;
+    text-align: justify;
+}
+
+.redes{
+    position: relative;
+    left: 1020px;
+    bottom: 240px;
+}
+.insta{
+    margin-left: 10px;
+}
+.face{
+    margin-left: 10px;
+}

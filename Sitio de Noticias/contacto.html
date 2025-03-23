@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    
+    <header>
+
+        <img class="logo" src="Logo.webp" alt="" width="150px">
+        <h1>NEXONEWS</h1>
+
+        <div class="busqueda">
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar..." width="120px">
+            <button class="search" onclick="buscarTexto()"><img src="lupa-de-busqueda.png" alt="" width="20px"></button>
+        </div> 
+
+        <nav>
+
+            <a class="inicio" href="inicio.html">Inicio</a>
+            <a class="contacto" href="contacto.html">Contactanos</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <h2>Contactanos</h2>
+
+        <form class="formulario">
+
+            <div class="campo">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre">
+
+            </div>
+        
+            <div class="campo">
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
+
+            </div>
+        
+            <div class="campo">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe un Mensaje"></textarea>
+
+            </div>
+        
+            <button type="submit">Enviar Mensaje</button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <div class="enlaces">
+        <h3>Enlaces Útiles:</h3>
+
+            <ul class="lista1">
+                <li>Acerca de Nosotros:
+                    Conoce más sobre nuestro equipo y misión.</li>
+                <br>
+                <li>Política de Privacidad:
+                    Entérate cómo protegemos tu información personal.</li>
+            </ul>
+
+            <ul class="lista2">
+                <li>Términos y Condiciones:
+                    Revisa las normas de uso de nuestro sitio.</li>
+                <br>
+                <li>Contacto:
+                    Ponte en contacto con nosotros para cualquier consulta.</li>
+            </ul>
+
+        </div>
+
+        <div class="aviso">
+            <h3>Aviso Legal:</h3>
+            <p>© 2025 NexoNews. Todos los derechos reservados.
+                Este sitio web proporciona información general sobre eventos y noticias. Los artículos de este sitio no constituyen asesoramiento profesional.</p>
+        </div>
+
+        <div class="redes">
+            <h3>Redes Sociales:</h3>
+
+            <img class="x" src="X.png" alt="" width="30px">
+            <img class="insta" src="instagram.png" alt="" width="30px">
+            <img class="face" src="facebook.png" alt="" width="30px">
+        </div>
+
+    </footer>
+
+</body>
+</html>
